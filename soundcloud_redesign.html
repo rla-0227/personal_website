@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link to google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" />
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet" />
+    <!-- link to my CSS -->
+    <link href="css/all.css" rel="stylesheet" />
+    <link href="css/project.css" rel="stylesheet" />
+    <title>SoundCloud Redesign - Ryan La</title>
+  </head>
+
+  <body>
+    <header class="header main-grid">
+      <div class="header-content">
+        <a class="logo-link" href="index.html">
+          <h1 class="logo-title">RYAN LA</h1>
+        </a>
+        <button aria-label="Open navigation" class="open-nav">&#9776;</button>
+        <nav class="nav">
+          <button aria-label="Close navigation" class="close-nav">&times;</button>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="work.html" class="nav-link current">Work</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-grid project">
+      <h3 class="page-title" id="soundcloud_redesign">SoundCloud Redesign</h3>
+      <div class="main-text">
+        <div class="main-label">
+          <span class="label-item"><strong>Role: </strong>Individual</span>
+          <span class="label-item"><strong>Duration: </strong>January 2020 - March 2020</span>
+          <span class="label-item"><strong>Category: </strong>UI/UX, Research</span>
+        </div>
+        <h4 class="section-title">ABOUT</h4>
+        <p class="main-paragraph">
+          For my project course in Human-Computer Interaction Requirements and Evaluation at the University of California Irvine, my group and and I spent ten weeks collecting
+          and analyzing the user’s experience with the SoundCloud website platform. The data gathered will be used to address and solve some of the main problems that the
+          users identify and experience. We also pinpointed the heuristics that SoundCloud violated and looking at the main target areas that could be improved on. We created
+          a redesign of this platform based on our own evaluation of the website and most importantly, feedback from the user’s experience during this process.
+        </p>
+        <h4 class="section-title">PROJECT ANALYSIS</h4>
+        <p class="main-paragraph">
+          <strong>Goal: </strong>The goal of this overall project is to perform a UX-focused analysis of the system through methods such as competitive analysis, interviews
+          and surveys, remote user testing, and heuristic evaluations to redesign the system and improve its user experience.
+          <br />
+          <br />
+          <strong>Target Population: </strong> Since the product we are studying is a music streaming service, our target population consists of those that 1) listen to music
+          and 2) utilize some form of music streaming service. Additionally, we are interested in music content creators, specifically those that upload their music for
+          distribution. Technical knowledge is not as relevant. It can be assumed that anyone that is able to utilize a music streaming service has a basic understanding of
+          web browsing and mobile device use to use these services effectively. Factors of age, income, education level, and culture are irrelevant to our study insofar that
+          these factors do not prevent individuals from utilizing a music streaming service.
+        </p>
+        <h4 class="section-title">PROCESS</h4>
+        <h5 class="section-header">Competitive Analysis</h5>
+        <p class="main-paragraph">
+          We first conducted a competitive analysis of both direct and indirect competitors of SoundCloud in order to gain an understanding of what similar products do well
+          and what they don’t. Our top direct competitors were Spotify and Apple Music, which are both similar to SoundCloud, but were found to be more user friendly, easy to
+          navigate, and curated to their users’ interests. Our indirect competitors were music radio and CDs, which are more older and physical forms of music consumption, but
+          offer unique ways of obtaining and listening to music. The analysis of the purpose, features, user base, and similarities and differences of these competitors gave
+          us insight into detailed design choices as well as higher-level needs and broader solutions of providing people with music.
+        </p>
+        <h5 class="section-header">Interviews and Surveys</h5>
+        <p class="main-paragraph">
+          We then administered interviews and surveys to members of our target population to better understand their needs, lifestyles, goals, experiences. We first identified
+          the high-level objectives of our study, which included understanding how music fits into people’s lives and how they interact with music streaming platforms. The
+          interviews and survey were semi-structured and consisted of closed and open-ended questions about the user’s relationship with music and how they use music streaming
+          services. An affinity diagram was then used to analyze our data, and organize our responses, helping us to identify common user needs and experiences.
+        </p>
+        <h5 class="section-header">Personas</h5>
+        <p class="main-paragraph">
+          We created 3 personas using data collected from our surveys and interviews. We were able to discover similar trends and responses in our data, ultimately deriving 3
+          general archetypes from those groupings to base our personas on.
+        </p>
+        <h5 class="section-header">Remote User Testing</h5>
+        <p class="main-paragraph">
+          We administered a remote user test to identify and characterize usability issues in SoundCloud. We first established our high-level goals, which included end goals
+          (user’s motivation for using the product) and experience goals (how someone wants to feel while using a product). We then derived 11 tasks from our high-level goals,
+          which included a mixture of tasks ranging from simple to complex difficulty to have a wider coverage of potential usability issues. The success criteria was
+          determined by whether the participant successfully completed or failed the task. The participants also filled out questions given in a survey before, during, and
+          after each task and detailed notes were taken on the user’s mental model during the duration of the testing process.
+        </p>
+        <h5 class="section-header">Heuristic Evaluation</h5>
+        <p class="main-paragraph">
+          We applied Jacob Nielsen’s 10 heuristics in our analysis of SoundCloud’s website. We each navigated the website according to our own preferences to provide coverage
+          for all potential use cases, taking note of whether heuristics were violated. Our evaluation covered most features on SoundCloud’s website, but we were unable to
+          evaluate pages that needed us to upgrade our SoundCloud accounts. We then compiled our notes to look for commonly identified problems and also tried to address
+          aspects of the website that may be overlooked rather than addressing only the most common concerns
+        </p>
+        <h5 class="section-header">Findings</h5>
+        <h6 class="subsection-title"><em>Home</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_findings_home.png" alt="findings home page" />
+        </div>
+        <p class="main-paragraph">
+          Problems with information overload and a lack of user control were mainly derived from the homepage of SoundCloud. Users from our interviews and usability tests
+          expressed a general disliking to the layout of the main home page and how some information seems cluttered, unnecessary, or unclear. The results of the remote
+          usability test and heuristic evaluation revealed how many key features failed to provide proper user control and freedom, notably due to the lack of access to
+          features on the homepage. The complexity of creating a playlist, tediousness of scrolling and searching to find new music, and prominence of unimportant features
+          does not give users much control, flexibility, or efficiency over how they discover certain music or even access their own.
+        </p>
+        <h6 class="subsection-title"><em>Playlist</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_findings_playlist.png" alt="findings playlist page" />
+        </div>
+        <p class="main-paragraph">
+          The complexity of SoundCloud stems from the most common feature used by their platform and by other music streaming platforms, creating and editing playlists. In the
+          competitive analysis, their direct competitors, Spotify and Apple Music, were shown to be the most simple while SoundCloud was the least intuitive. Through the user
+          remote testing, the participants were struggling to complete their tasks efficiently and successfully. From the criteria our group created, SoundCloud required a
+          grueling 14 steps to create a playlist and an additional 7 steps to edit a playlist. Out of the 5 participants, none were able to complete to create a playlist
+          efficiently within the 14 steps, including a participant completely giving up and failing the task. SoundCloud does not have an option to create the playlist first.
+          Compared to Apple Music and Spotify, the user is able to create the playlist first and then add the songs directly to their playlist. Another issue SoundCloud had
+          was editing the playlist. This task was the most challenging because only a few knew this feature existed. The user cannot manually drag and edit the songs in the
+          playlist page compared to the other music services. They would have to locate a small “Edit” button to proceed, but it was still not clear that the user can drag the
+          songs around.
+        </p>
+        <h6 class="subsection-title"><em>Messaging</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_findings_messaging.png" alt="findings messaging page" />
+        </div>
+        <p class="main-paragraph">
+          Issues with SoundCloud’s messaging feature stems from discrepancies between user mental models and a lack of informative documentation to help error recovery. In our
+          remote user test, only 2 /5 participants managed to successfully message a user, rating it as “very difficult” and “moderate.” Difficulty comes from how the feature
+          is inconsistent with whom users were able to message through it. Some users could be messaged through the feature while others necessitate messaging directly from
+          their profile. Searching a user that can’t be messaged using the feature will give a “SoundCloud user not found” error even though the user exists. The error message
+          doesn’t guide users towards the correct method and also misinforms them. Another frustration was the lack of confirmation dialog for important actions. For example,
+          there was no confirmation dialog when commenting on a track. While not inherent to messaging, this was something that needed to be addressed so users know when their
+          actions are registered and that they could be reversed.
+        </p>
+        <h6 class="subsection-title"><em>Support</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_findings_support.png" alt="findings support page" />
+        </div>
+        <p class="main-paragraph">
+          The support page was found to be tedious and confusing. Early in our study, Soundcloud changed the support page from containing a simple standard search bar and
+          replaced it with a button that read “Ask a Question”. Clicking on this button would then open a pop-up window at the bottom right of the page. Within this, a topic
+          must first be selected to continue. A major issue with this pop-up window is that it is very small and functionally acts the same as the standard search bar, but
+          with added complexity of choosing a topic first, then typing a question. Our test users had difficulty completing the task to look up an answer on the support page,
+          as some failed to complete the task and all took more steps than needed. All the participants were confused by the lack of a search bar, something that is common and
+          seemingly standard practice among many other sites.
+        </p>
+        <h5 class="section-header">Redesign</h5>
+        <h6 class="subsection-title center">Sketches</h6>
+        <h6 class="secondary-title"><em>Home</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_sketches_home.png" alt="sketching home page" />
+        </div>
+        <p class="main-paragraph">
+          We updated the homepage to provide users with better access to features, curated music, and their own library. Track and artist recommendations are placed at the top
+          and center for users to discover new music that is similar to what they have recently been listening to. SoundCloud Weekly is also a playlist of tracks based on
+          listening history that allows users to quickly press play when they first enter the site, saving them time from having to figure out what to listen to. We redesigned
+          the sidebar of the homepage to provide more useful and commonly used features such as recently played music and a list of the users’ playlists. The user can quickly
+          access tracks, albums, or playlists based on how recently and often they’ve been played as well as the playlists they’ve created, reducing a significant amount of
+          steps it takes to navigate to these features. Additionally, the user can directly create a new playlist from the sidebar. The top navigation bar and the bottom play
+          bar were also redesigned to be more visually appealing, efficient, and consistent with other music streaming services.
+        </p>
+        <h6 class="secondary-title"><em>Playlist</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_sketches_playlist.png" alt="sketching playlist page" />
+        </div>
+        <p class="main-paragraph">
+          We wanted to focus on giving the user control and freedom when creating and editing their playlists. Our interviews show that they enjoy the flexibility and
+          organization of finding songs and artists, customizing playlists, and discovering new music. Our interviewees seem to value convenience, accessibility, aesthetics,
+          and personalization when using online music listening platforms. The sketch that we have created will have a spot where the user’s can place a picture for their
+          playlist. Underneath that image, the playlist box will contain songs that the user saves to their playlist as well as a search bar for locating specific songs. To
+          the right of the playlist box, similar music tracks will be displayed. And to keep the uniqueness of SoundCloud, we will provide the orange music bar right next to
+          the playlist image. These notable layout differences will enhance the control that the user has when creating and editing a playlist.
+        </p>
+        <h6 class="secondary-title"><em>Messaging</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_sketches_playlist.png" alt="sketching playlist page" />
+        </div>
+        <p class="main-paragraph">
+          Our solution to the messaging feature focuses on redesigning its logic and appearance to match users’ mental model of how a conventional messaging feature should be,
+          as well as including more informative error recovery. When thinking of messaging, we generally think of short conversations that could be quickly exchanged.
+          SoundCloud’s current messaging is akin to email, which makes the experience somewhat formal and requires users to send complete thoughts rather than exchanging short
+          blurbs to be adjusted as the conversation develops. Therefore, we decided the feature should be redesigned to be more reminiscent of instant messaging. We believe
+          this approach is more inviting and accessible, and is more in line with SoundCloud’s overall presentation which can be described as casual and personal.
+          <br />
+          <br />
+          We also changed the placement of the “new message” icon to be right next to “Message” and adjusted the logic behind it. Users may now search up and message any user
+          through the feature. Other functions include a search bar to find previous messages with the results populating the area below. Clearing the search will return the
+          area to its original state with recently messaged users. When receiving a playlist message, clicking the play button on the playlist will add it to the user’s queue
+          and play the first track. Clicking the playlist’s name will go to its designated page instead.
+        </p>
+        <h6 class="secondary-title"><em>Support</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_sketches_support.png" alt="sketching support page" />
+        </div>
+        <p class="main-paragraph">
+          We wanted to keep the style of the page to be similar to what Soundcloud already had, but redesign it to be more like support pages of other websites. Given the
+          primary issue with the support page was the lack of a search bar, the search bar was placed at the top center of the page so that it is the primary function of the
+          page header.
+          <br />
+          <br />
+          Additionally, a FAQ section was added on the left for quick at-a-glance searching of common support topics. Icons for links relating to categorical support topics
+          were added in the body of the page below the search bar. Below that are the promoted articles which displays the most common topics that have been searched for
+          recently by users. A feed of the Status Blog was added to the right side, which contains information about the status of current site issues. We felt that having
+          this information quickly available at a glance was important, but not so important as to take away page real estate from more common support content. The chosen
+          design is meant to be concise and practical to benefit the user and reduce confusion.
+        </p>
+        <h6 class="subsection-title center">Mid-Level Mockups</h6>
+        <h6 class="secondary-title"><em>Home</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_mid_home.png" alt="mid level prototype home page" />
+        </div>
+        <p class="main-paragraph">
+          A few changes were made from the homepage sketch to the wireframe to enhance user experience. A refresh button was added to the recommended tracks and artists to
+          provide users with the option to view additional music if they wanted to see more or did not prefer the ones that were shown, without having to refresh the entire
+          page. This feature also allows users to discover an endless amount of songs and artists they might enjoy without cluttering their homepage. Additionally, when the
+          users clicks on “Create New Playlist” an empty slot would appear over “Playlist 1” for them to enter a name, and creates an empty playlist that they can then
+          directly navigate and add songs to. The sidebar would stay static while the users scrolls down the main left area so that they can still quickly access their
+          recently played and playlists without having to scroll all the way up.
+        </p>
+        <h6 class="secondary-title"><em>Playlist</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_mid_playlist1.png" alt="mid level prototype first playlist page" />
+        </div>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_mid_playlist2.png" alt="mid level prototype second playlist page" />
+        </div>
+        <p class="main-paragraph">
+          When the user creates a playlist, they will be prompted to this playlist page. The playlist cover as well as the name of the playlist and username will be shown.
+          Keeping some of the basic functions of the current SoundCloud, they will have the option to like, share, edit, and add a song to be played next. We value these
+          important buttons and feel that they should not be removed. However, we have separated the buttons so that it is more accessible to click on as all the buttons were
+          currently displayed in a single row on the current SoundCloud. By sorting the buttons to their distinct location on the page, users will have a greater understanding
+          that each button pressed will only be applicable to that section. This clarification will help improve the user’s mental model of the features as this was a
+          noticeable problem taken from the user remote testing. We also wanted to allow the user to discover more similar tracks. The new addition of the refresh button will
+          allow the user to cycle through songs that are not of interest and play the ones that they like. The amount of tracks and duration circle will be relocated to the
+          top right of the playlist page as the previous display was difficult to recognize.
+        </p>
+        <h6 class="secondary-title"><em>Messaging</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_mid_messaging1.png" alt="mid level prototype first messaging page" />
+        </div>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_mid_messaging2.png" alt="mid level prototype second messaging page" />
+        </div>
+        <p class="main-paragraph">
+          When the user creates a playlist, they will be prompted to this playlist page. The playlist cover as well as the name of the playlist and username will be shown.
+          Keeping some of the basic functions of the current SoundCloud, they will have the option to like, share, edit, and add a song to be played next. We value these
+          important buttons and feel that they should not be removed. However, we have separated the buttons so that it is more accessible to click on as all the buttons were
+          currently displayed in a single row on the current SoundCloud. By sorting the buttons to their distinct location on the page, users will have a greater understanding
+          that each button pressed will only be applicable to that section. This clarification will help improve the user’s mental model of the features as this was a
+          noticeable problem taken from the user remote testing. We also wanted to allow the user to discover more similar tracks. The new addition of the refresh button will
+          allow the user to cycle through songs that are not of interest and play the ones that they like. The amount of tracks and duration circle will be relocated to the
+          top right of the playlist page as the previous display was difficult to recognize.
+        </p>
+        <h6 class="secondary-title"><em>Support</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_mid_support.png" alt="mid level prototype support page" />
+        </div>
+        <p class="main-paragraph">
+          When the user creates a playlist, they will be prompted to this playlist page. The playlist cover as well as the name of the playlist and username will be shown.
+          Keeping some of the basic functions of the current SoundCloud, they will have the option to like, share, edit, and add a song to be played next. We value these
+          important buttons and feel that they should not be removed. However, we have separated the buttons so that it is more accessible to click on as all the buttons were
+          currently displayed in a single row on the current SoundCloud. By sorting the buttons to their distinct location on the page, users will have a greater understanding
+          that each button pressed will only be applicable to that section. This clarification will help improve the user’s mental model of the features as this was a
+          noticeable problem taken from the user remote testing. We also wanted to allow the user to discover more similar tracks. The new addition of the refresh button will
+          allow the user to cycle through songs that are not of interest and play the ones that they like. The amount of tracks and duration circle will be relocated to the
+          top right of the playlist page as the previous display was difficult to recognize.
+        </p>
+        <h6 class="subsection-title center">High-Level Mockups</h6>
+        <h6 class="secondary-title"><em>Home</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_high_home.png" alt="high level prototype home page" />
+        </div>
+        <p class="main-paragraph">
+          When the user creates a playlist, they will be prompted to this playlist page. The playlist cover as well as the name of the playlist and username will be shown.
+          Keeping some of the basic functions of the current SoundCloud, they will have the option to like, share, edit, and add a song to be played next. We value these
+          important buttons and feel that they should not be removed. However, we have separated the buttons so that it is more accessible to click on as all the buttons were
+          currently displayed in a single row on the current SoundCloud. By sorting the buttons to their distinct location on the page, users will have a greater understanding
+          that each button pressed will only be applicable to that section. This clarification will help improve the user’s mental model of the features as this was a
+          noticeable problem taken from the user remote testing. We also wanted to allow the user to discover more similar tracks. The new addition of the refresh button will
+          allow the user to cycle through songs that are not of interest and play the ones that they like. The amount of tracks and duration circle will be relocated to the
+          top right of the playlist page as the previous display was difficult to recognize.
+        </p>
+        <h6 class="secondary-title"><em>Playlist</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_high_playlist1.png" alt="high level prototype playlist first page" />
+        </div>
+        <p class="main-paragraph">
+          This high fidelity prototype is centered around providing the user more control when navigating around their playlist. This model provides more clarity by creating a
+          dark highlighted bar around the song that is being hovered onto. With the complaints of the participants, we have implemented a feature where the user can easily
+          drag the songs around while being on the same page. To keep the appealing aesthetics of SoundCloud, the progress was added on top of the playlist. However, we
+          removed the comments as that was a feature rarely taken from the surveys.
+        </p>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_high_playlist2.png" alt="high level prototype playlist second page" />
+        </div>
+        <p class="main-paragraph">
+          Upon clicking the “Edit” button, the user will be able to rename their playlist, change their playlist cover, and allow it to be public or private. This high
+          fidelity prototype solves the numerous issues when creating and editing the playlists.
+        </p>
+        <h6 class="secondary-title"><em>Messaging</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_high_messaging1.png" alt="high level prototype messaging first page" />
+        </div>
+        <p class="main-paragraph">
+          The high-fidelity prototype underwent some visual polish such as changing the “new message” icon to improve visibility and affordance, and changing text bubbles to
+          take up less space and have them closer to the sender’s profile icon for readability.
+          <br />
+          <br />
+          The chosen colors are consistent with the rest of the redesign, using a mix of SoundCloud’s main orange color and various shades of blacks and grays for our dark
+          mode oriented interface. The area farming the main chat area is darker to bring more focus to the messaging area, but since a lot of text is still present on the
+          left side, we had to adjust the contrast between the dark tone and the white text so it’s not too sharp. Since the main focus is the chat itself, we wanted to make
+          chat bubbles pop with SoundCloud’s iconic orange.
+        </p>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_high_messaging2.png" alt="high level prototype messaging first page" />
+        </div>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_high_messaging3.png" alt="high level prototype messaging second page" />
+        </div>
+        <p class="main-paragraph">
+          The “new message” feature has also been refined to improve visibility of users that can’t be messaged so users could quickly scroll past them, as well as more human
+          and descriptive error messages to match SoundCloud’s tone.
+        </p>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_high_messaging4.png" alt="high level prototype messaging fourth page" />
+        </div>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_high_messaging5.png" alt="high level prototype messaging fifth page" />
+        </div>
+        <p class="main-paragraph">
+          The “add playlist” feature has been modified to allow users to search and sort playlists/tracks. The process of adding multiple files has also been simplified by
+          enabling users to check off all the music they wish to send and clicking “next”. The confirmation page displays the selected music so users could confirm or delete
+          items they don’t wish to send, or go back to add extra ones.
+        </p>
+        <h6 class="secondary-title"><em>Support</em></h6>
+        <div class="flex">
+          <img class="main-image" src="./images/sc_high_support.png" alt="high level prototype support page" />
+        </div>
+        <p class="main-paragraph">
+          When the user creates a playlist, they will be prompted to this playlist page. The playlist cover as well as the name of the playlist and username will be shown.
+          Keeping some of the basic functions of the current SoundCloud, they will have the option to like, share, edit, and add a song to be played next. We value these
+          important buttons and feel that they should not be removed. However, we have separated the buttons so that it is more accessible to click on as all the buttons were
+          currently displayed in a single row on the current SoundCloud. By sorting the buttons to their distinct location on the page, users will have a greater understanding
+          that each button pressed will only be applicable to that section. This clarification will help improve the user’s mental model of the features as this was a
+          noticeable problem taken from the user remote testing. We also wanted to allow the user to discover more similar tracks. The new addition of the refresh button will
+          allow the user to cycle through songs that are not of interest and play the ones that they like. The amount of tracks and duration circle will be relocated to the
+          top right of the playlist page as the previous display was difficult to recognize.
+        </p>
+      </div>
+      <!-- <div class="flex">
+          <img class="flex-1" src="./images/Resume.jpg" alt="my resume" />
+          <img class="flex-2" src="./images/Resume.jpg" alt="my resume" />
+        </div> -->
+
+      <!-- <img class="main-image" src="./images/Resume.jpg" alt="my resume"> -->
+    </main>
+
+    <footer class="footer main-grid">
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="https://www.linkedin.com/in/ryan-la-b039261b8/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="social-item">
+          <a href="https://www.facebook.com/ryanla0227" target="_blank" class="social-link"><i class="fab fa-facebook-square"></i></a>
+        </li>
+        <li class="social-item">
+          <a href="https://www.instagram.com/_ryanla_/?hl=en" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li class="social-item">
+          <a href="mailto:ryan_la_0227@gmail.com" class="social-link"><i class="far fa-envelope"></i></a>
+        </li>
+      </ul>
+      <div class="footer-main">
+        <p class="footer-text"><span class="accent-color"> &copy; Copyright 2020 RYAN LA</span> | All rights reserve</p>
+        <p class="footer-fineprint"></p>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>

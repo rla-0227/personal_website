@@ -1,0 +1,110 @@
+/* ==================
+    general layout
+===================== */
+
+/* about */
+.main-grid {
+  display: grid;
+  grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
+  /* grid-auto-rows: min-content; */
+  grid-column-gap: 3em;
+}
+
+@media (min-width: 800px) {
+  .main-grid {
+    /* smaller min max helps prevent side scrolling */
+    grid-template-columns: minmax(1em, 1fr) minmax(0px, 1200px) minmax(1em, 1fr);
+  }
+}
+
+/* ==================
+    template page
+===================== */
+.page-title {
+  font-size: 1.5rem;
+  grid-column: 2/-2;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+.page-title::after {
+  content: "";
+  display: block;
+  width: 110px;
+  height: 20px;
+  background: #ffe600;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -18px;
+}
+
+.section-title {
+  font-size: 1.25rem;
+}
+
+.main-text {
+  grid-column: 2/-2;
+}
+
+.main-paragraph {
+  margin: 0;
+}
+
+.section-title {
+  grid-column: 2/-2;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 10px 0 0;
+  background: #ffa300;
+  justify-self: center;
+}
+
+.main-image {
+  grid-column: 2/-2;
+  width: 90%;
+  /* max-height: 50%; */
+  justify-self: center;
+  border: 1px solid orange;
+  margin-top: 1em;
+}
+
+.about-me {
+  padding: 1.5em 0em;
+}
+
+@media (min-width: 750px) {
+  .page-title {
+    font-size: 1.5rem;
+    grid-column: 2/-2;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2.5em;
+  }
+
+  .main-text {
+    grid-column: 2/-2;
+  }
+
+  .main-paragraph {
+    margin: 0;
+  }
+
+  .main-image {
+    grid-column: 2/-2;
+    width: 60%;
+    /* max-height: 50%; */
+    justify-self: center;
+    border: 1px solid orange;
+    margin: 0;
+  }
+
+  .about-me {
+    padding: 3em 0;
+  }
+}
