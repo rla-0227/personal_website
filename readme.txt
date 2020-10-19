@@ -54,3 +54,6 @@ None
 
 6. Is there anything special we need to know in order to run your code?
 No
+
+
+Notes: For my accessibility some potential issues include fixing alt texts and text may not be meaningful. Nothing to severe
