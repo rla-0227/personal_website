@@ -137,7 +137,7 @@
 
 .main-image {
   object-fit: cover;
-  width: 100%;
+  max-width: 100%;
   border: 0.4px solid black;
   margin: 1em 0;
   justify-self: center;
@@ -152,9 +152,14 @@
   line-height: 2;
 }
 
-.flex {
+/* uncommment */
+/* .flex {
   display: flex;
   justify-content: center;
+} */
+
+.flex {
+  text-align: center;
 }
 
 .center {
@@ -165,6 +170,11 @@
 #mockups {
   width: 60%;
 }
+
+/* .col {
+  grid-column: 2 / -2;
+  justify-self: center;
+} */
 
 @media (min-width: 800px) {
   .page-title {

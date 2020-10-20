@@ -173,7 +173,3 @@
     margin: 1em 0 1.5em 0;
   }
 }
-
-.blah {
-  grid-column: 2/-2;
-}
