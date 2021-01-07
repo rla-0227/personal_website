@@ -75,12 +75,12 @@
   background: #ffa300;
 }
 
-.description-paragraph {
-  margin: 1em 0;
+#uci_ics {
+  max-height: 500px;
 }
 
-#uci_ics {
-  height: 500px;
+.description-paragraph {
+  margin: 1em 0;
 }
 
 .col {
@@ -150,6 +150,14 @@
     grid-column: 3 / span 1;
   }
 
+  .col:nth-child(14) {
+    grid-column: 2 / span 1;
+  }
+
+  .col:nth-child(15) {
+    grid-column: 3 / span 1;
+  }
+
   .btn {
     padding: 0;
     justify-self: flex-start;
@@ -166,7 +174,7 @@
   }
 
   #uci_ics {
-    height: 500px;
+    max-height: 500px;
   }
 
   .description-paragraph {

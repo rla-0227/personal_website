@@ -39,6 +39,17 @@
   margin-top: -18px;
 }
 
+#weather::after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 20px;
+  background: #ffe600;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -18px;
+}
+
 #personal_website::after {
   content: "";
   display: block;
@@ -151,12 +162,6 @@
   display: block;
   line-height: 2;
 }
-
-/* uncommment */
-/* .flex {
-  display: flex;
-  justify-content: center;
-} */
 
 .flex {
   text-align: center;

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link to google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" />
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet" />
+    <!-- link to my CSS -->
+    <link href="css/all.css" rel="stylesheet" />
+    <link href="css/project.css" rel="stylesheet" />
+    <title>Weather Report Software - Ryan La</title>
+  </head>
+
+  <body>
+    <header class="header main-grid">
+      <div class="header-content">
+        <a class="logo-link" href="index.html">
+          <h1 class="logo-title">RYAN LA</h1>
+        </a>
+        <button aria-label="Open navigation" class="open-nav">&#9776;</button>
+        <nav class="nav">
+          <button aria-label="Close navigation" class="close-nav">&times;</button>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="work.html" class="nav-link current">Work</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-grid project">
+      <h3 class="page-title" id="weather">Weather Report Software</h3>
+      <div class="main-text">
+        <div class="main-label">
+          <span class="label-item"><strong>Role: </strong>Individual</span>
+          <span class="label-item"><strong>Duration: </strong>December 2020</span>
+          <span class="label-item"><strong>Category: </strong> Web Development</span>
+        </div>
+        <h4 class="section-title">ABOUT</h4>
+        <p class="main-paragraph">This project took me 2 weeks to complete. This project allowed me to test myself on React and working with APIs.</p>
+        <h4 class="section-title">PROJECT ANALYSIS</h4>
+        <p class="main-paragraph">
+          <strong>Goal: </strong>The goal of this project is to create a weather report software. Users will be able to enter in the the city name to retrieve the current
+          temperature alongside any other supplemental information about the weather.
+          <br />
+          <br />
+          <strong>Requirements: </strong>
+        </p>
+        <ol>
+          <li>Add a search bar that will record the name or ZIP code and suggest possible locations or suggestions.</li>
+          <li>
+            Within the search bar, users will be able to input a location name or ZIP code and the website will display the weather for their location. The ZIP code only works
+            for locations in the US, but text-based location search works worldwide.
+          </li>
+          <li>The website will display the weather report for the current day</li>
+          <li>
+            The weather report will be able to indicate additional information such as the sunrise/set, moonrise/set, humidity, air pressure, wind speed, visibility, and air
+            quality. Once the user gets the results for a certain location, they will be alerted if the air quality for the location is unhealthy.
+          </li>
+          <li>The website will be able to detect the location of the user and present weather data for that location.</li>
+        </ol>
+        <h4 class="section-title">FINALIZED PRODUCT</h4>
+        <div class="flex">
+          <!-- <img class="main-image" src="./images/personal_website.png" alt="personal project" /> -->
+          <video width="800" controls>
+            <source src="./videos/Weather.mov" />
+            Your browser does not support HTML video.
+          </video>
+        </div>
+      </div>
+    </main>
+
+    <!-- <img class="main-image" src="./images/Resume.jpg" alt="my resume"> -->
+
+    <footer class="footer main-grid">
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="https://www.linkedin.com/in/ryan-la-b039261b8/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="social-item">
+          <a href="https://www.facebook.com/ryanla0227" target="_blank" class="social-link"><i class="fab fa-facebook-square"></i></a>
+        </li>
+        <li class="social-item">
+          <a href="https://www.instagram.com/_ryanla_/?hl=en" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li class="social-item">
+          <a href="mailto:ryan_la_0227@gmail.com" class="social-link"><i class="far fa-envelope"></i></a>
+        </li>
+      </ul>
+      <div class="footer-main">
+        <p class="footer-text"><span class="accent-color"> &copy; Copyright 2020 RYAN LA</span> | All rights reserve</p>
+        <p class="footer-fineprint"></p>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
