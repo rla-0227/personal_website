@@ -22,7 +22,6 @@
 ======================== */
 .work {
   padding: 1.5em 0em;
-  /* grid-gap: 2em 0em; */
 }
 
 .page-title {
@@ -96,7 +95,6 @@
 
   .work {
     padding: 3em;
-    /* grid-gap: 3em 3em; */
   }
 
   .work-image {
