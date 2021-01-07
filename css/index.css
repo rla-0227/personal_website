@@ -28,7 +28,7 @@
 /* hero / recent-work */
 .main-grid {
   display: grid;
-  grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
+  grid-template-columns: minmax(0em, 1fr) minmax(0px, 500px) minmax(0em, 1fr);
   grid-auto-rows: min-content;
   grid-column-gap: 3em;
 }
@@ -156,11 +156,6 @@
     grid-column-gap: 3em;
   }
 
-  .btn {
-    padding: 0;
-    justify-self: flex-start;
-  }
-
   .section-title {
     margin-top: 0;
     margin-bottom: 2.5em;
@@ -170,7 +165,11 @@
     margin: 0 0 1em 0;
     font-size: 1.25rem;
   }
-
+  /*   
+  .btn {
+    padding: 0;
+    justify-self: flex-start;
+  }
   .description-button {
     padding: 0.5em 1.75em;
     align-self: flex-start;
@@ -178,5 +177,5 @@
 
   .description-paragraph {
     margin: 1em 0 1.5em 0;
-  }
+  } */
 }

@@ -5,7 +5,7 @@
 /* about */
 .main-grid {
   display: grid;
-  grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
+  grid-template-columns: minmax(0em, 1fr) minmax(0px, 500px) minmax(0em, 1fr);
   /* grid-auto-rows: min-content; */
   grid-column-gap: 3em;
 }
@@ -115,6 +115,26 @@ textarea {
 button {
   font-family: inherit;
   font-size: 1rem;
+}
+
+.btn {
+  padding: 0.5em 1.75em;
+  font-weight: 700;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  justify-self: center;
+}
+
+.btn-primary {
+  background: #ffe600;
+  color: #000;
+  justify-self: flex-end;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #ffa300;
 }
 
 @media (min-width: 800px) {
