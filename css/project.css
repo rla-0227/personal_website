@@ -42,7 +42,7 @@
 #weather::after {
   content: "";
   display: block;
-  width: 300px;
+  width: 90px;
   height: 20px;
   background: #ffe600;
   margin-left: auto;
@@ -97,7 +97,7 @@
 #uci-ics::after {
   content: "";
   display: block;
-  width: 300px;
+  width: 90px;
   height: 20px;
   background: #ffe600;
   margin-left: auto;
